@@ -1,0 +1,75 @@
+body{
+    width: 100%;
+    max-width: 1280px;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+
+
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+    font-size: 45px;
+    margin: 20px 0;
+}
+
+
+aside {
+    width: 100%;
+    max-width: 370px;
+    background-color: #1E2939;
+    color: #FFFFFF;
+}
+
+ul li {
+    margin-left: -20px;
+}
+
+aside b {
+    margin-right: 10px;
+}
+
+aside ul li::before {
+    content: "\2022"; 
+    color: rgb(255, 123, 0);
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em;
+  }
+
+div{
+    margin-bottom: 50px;
+}
+
+img {
+    width: 100%;
+    margin-top: 40px;
+}
+.asideText {
+    padding:40px;
+}
+
+article {
+    width: 100%;
+    max-width: 800px;
+    padding: 40px 90px;
+}
+
+.orangText {
+    color: rgb(255, 136, 0);
+}
+
+.greyText {
+    color:rgb(150, 150, 150);
+}
+
+.indent {
+    padding-left: 100px;
+
+}
